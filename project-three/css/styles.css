@@ -1,0 +1,379 @@
+/* font-family: 'Fjalla One',
+sans-serif;
+font-family: 'Kanit',
+sans-serif;
+font-family: 'Titillium Web',
+sans-serif */
+
+:root {
+    --dark-primary-color: #26010f;
+    --light-primary-color: #8C5651;
+    --primary-color: #F2F2F2;
+    --text-icons: #FFFFFF;
+    --accent-color: #593C23;
+    --primary-text: #26010f;
+    --secondary-text: #000000;
+    --divider-color: #A88C79;
+    --heading-font: 'Fjalla One', sans-serif;
+    --text-font: 'Kanit', sans-serif;
+    --paragraph-font: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: var(--dark-primary-color);
+    font-family: var(--paragraph-font);
+    color: var(--dark-primary-color);
+    line-height: 2;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+        background: rgb(216, 214, 214);
+    }
+
+        .nav-item {
+            text-align: center;
+            font-size: x-large;
+            text-decoration: none;
+            margin-top: 30px;
+            margin-left: 30px;
+            background-color: var(--light-primary-color);
+            padding: 5px 15px;
+            color: var(--primary-color);
+            border-radius: 10px;
+            border: 2px solid var(--accent-color);
+        }
+    
+        .nav-link {
+            color: var(--primary-color);
+        }
+    
+        .nav-item:hover {
+            background-color: var(--divider-color);
+            color: var(--dark-primary-color)
+        }
+
+        .nav-pills {
+            margin-bottom: 30px;
+        }
+
+    h1 {
+        font-family: var(--heading-font);
+        text-align:center
+    }
+
+    h2 {
+        font-family: var(--heading-font);
+        text-align: center;
+    }
+
+    h3 {
+        font-family: var(--heading-font);
+        color: var(--accent-color);
+        text-align: center;
+    }
+
+    h4 {
+        font-family: var(--heading-font);
+        font-size: larger;
+        margin-top: 20px;
+    }
+
+    p {
+        font-family: var(--text-font);
+            color: var(--primary-text);
+            font-size: large;
+    }
+    
+
+    #p1 {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: var(--text-font);
+        color: var(--primary-text);
+        font-size: large;
+    }
+
+    #p3 {
+        margin-top: 20px;
+        font-size: larger;
+    }
+
+        .display-1 {
+            text-align: center;
+            color: var(--accent-color);
+        }
+
+        .display-2 {
+            text-align: center;
+            color: var(--accent-color);
+            font-size: 300%;
+        }
+
+        .display-3 {
+            text-align: center;
+                color: var(--accent-color);
+                font-size: 230%;
+        }
+
+                .grid-container {
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto;
+                    gap: 5px;
+                    width: 90%;
+                    background: var(--primary-color);
+                    margin: 10px auto;
+                    box-sizing: border-box;
+                    border: 5px solid var(--accent-color);
+                }
+        
+                .grid-container>div {
+                    background-color: var(--primary-color);
+                    padding: 20px 0;
+                    min-height: 100px;
+                    width: 100%;
+                }
+        
+                .grid-container>div>img {
+                    width: 50%;
+                    margin: 10px auto;
+                    display: block;
+                    cursor: pointer;
+                }
+
+                #large {
+                    box-sizing: border-box;
+                    padding: 20px;
+                    background: var(--primary-color);
+                    width: 50%;
+                    margin: 10px auto;
+                    display: block;
+                    border: 5px solid var(--accent-color);
+                    }
+
+                    #our-products {
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                    }
+
+                    #directory {
+                        margin-bottom: 50px;
+                    }
+
+                    #row2 {
+                        margin-top: 30px;
+                    }
+
+                    .card-body {
+                        color: var(--dark-primary-color);
+                    }
+
+                    .collapsed {
+                        font-family: var(--paragraph-font);
+                        color: var(--dark-primary-color);
+                        font-size: larger;
+                    }
+
+                .thumb {
+                    width: 20%;
+                    padding: 10px;
+                }
+        
+                .split {
+                    clear: both;
+                    padding-top: 40px;
+                    width: 80%;
+                    margin: 20px auto;
+                }
+
+                .btn {
+                    margin-left: 20px;
+                }
+                
+
+                #sign {
+                    width: 100%;
+                    margin-right: 50px;
+                    padding-bottom: 40px;
+                }
+
+                #redset {
+                    width: 60%;
+                }
+
+                #bass {
+                    width: 20%;
+                }
+
+                #timpani {
+                    width: 25%;
+                }
+
+                #africa {
+                    width: 25%;
+                }
+
+                #latin {
+                    width: 30%;
+                }
+
+                #pack {
+                    width: 30%;
+                }
+
+                #sticks {
+                    width: 30%;
+                }
+
+                #hardware {
+                    width: 20%;
+                }
+
+                #accessories {
+                    width: 25%;
+                }
+
+                #snares {
+                    width: 95%;
+                    padding-bottom: 50px;
+                }
+
+                #boxes {
+                    width: 65%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                #van {
+                    width: 70%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                #nation {
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+
+                #iowa {
+                    display: block;
+                    margin: 10px auto;
+                }
+
+                #com {
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                }
+
+                #deals {
+                    width: 2000px;
+                    height: 200px;
+                    
+                }
+
+                #counties {
+                    margin-bottom: 30px;
+                }
+
+                #skyline {
+                    width: 1500px;
+                }
+
+                #sets {
+                    width: 1000px;
+                    height: 200px;
+                }
+                
+                #cymbals {
+                    width: 2000px;
+                    height: 200px;
+
+                }
+
+                #instore {
+                    width: 1000px;
+                    height: 200px;
+                }
+
+                #worker {
+                    width: 100%;
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+
+                #goldset {
+                    width: 100%;
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+
+                #drumguy {
+                    width: 100%;
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+
+                #night {
+                    width: 90%;
+                    margin-top: 20px;
+                }
+
+                #customer {
+                    width: 90%;
+                    margin-top: 20px;
+                }
+
+                #setrow {
+                    width: 100%;
+                    margin-top: 30px;
+                }
+
+                                form {
+                                    background: var(--dark-primary-color);
+                                    padding: 35px;
+                                    color: var(--divider-color);
+                                    width: 90%;
+                                    margin: 20px auto;
+                                }
+                
+                                form h3 {
+                                    color: var(--divider-color);
+                                    margin: 20px 10px 10px -20px;
+                                }
+                
+                                input[type=text] {
+                                    width: 50%;
+                                    height: 50%;
+                                    padding: 5px;
+                                    border-radius: 15px;
+                                    border: 3px solid var(--divider-color);
+                                    margin: 10px;
+                
+                                }
+                
+                                textarea {
+                                    border-radius: 15px;
+                                    padding: 5px;
+                                    border: 3px solid var(--divider-color);
+                                }
+                
+                                form select {
+                                    font-size: 1.5em;
+                                    padding: 5px;
+                                }
+                
+                                form input:focus {
+                                    background-color: var(--divider-color);
+                                }
+                
+                                form input {
+                                    font-size: 1.2em;
+                                    font-family: 'Metrophobic', sans-serif;
+                                }
+
+                                footer {
+                                    text-align: center;
+                                }

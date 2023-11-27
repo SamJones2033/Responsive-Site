@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us-Dubuque Drumworks</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@300&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-1">DUBUQUE DRUMWORKS</h1>
+            </div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Our Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="delivery.html">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+            <div class="container pt-5">
+                <h2 class="display-2">About Us</h2>
+                <p id="p1">Dubuque Drumworks is a percussion store and dealer located in Dubuque, Iowa.
+                    The store opened in 2014 and carries a wide variety of percussion from a wide variety of brands.
+                    In the future, we look forward to expanding and becoming more widely known when providing our
+                    instruments to the Dubuque area. We are very passionate about percussion and have a commitment to
+                    share it with our community and the surrounding area.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../images/sign.jpg" alt="sign" id="sign">
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/snares.jpg" alt="snares" id="snares">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Where Passion and Tradition Converge</h3>
+                    <p>At Dubuque Drumworks, we are more than just a percussion store; we are a testament to the enduring love of music that
+                    has been passed down through generations. Our family-owned and operated business has been an integral part of the
+                    Dubuque music community for decades. With a commitment to excellence and an unwavering passion for rhythm, we have
+                    become a trusted destination for percussion enthusiasts of all backgrounds.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>A Legacy of Musical Dedication</h3>
+                    <p>Our story begins with a family deeply rooted in the music industry. Through the years, we've developed a profound
+                    appreciation for the artistry, innovation, and craftsmanship that define the world of percussion. This legacy is the
+                    cornerstone of Dubuque Drumworks, driving our dedication to providing you with the best products and unparalleled
+                    service.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>A Journey from Humble Beginnings</h3>
+                    <p>In 2014, Dubuque Drumworks opened its doors to the rhythm-hungry community of Dubuque, Iowa. Initially, we carried just
+                    a handful of brands and products, but our dream was boundless. As our passion met the demand of our valued customers, we
+                    expanded our offerings, cultivating a diverse selection of brands and products to satisfy the needs of musicians and
+                    drummers at all levels.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../images/worker.jpg" alt="worker" id="worker">
+                </div>
+                <div class="col-md-4">
+                    <img src="../images/goldset.jpg" alt="gold-drum-set" id="goldset">
+                </div>
+                <div class="col-md-4">
+                    <img src="../images/drumguy.jpg" alt="man-with-snare" id="drumguy">
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-md-4">
+                <h3>The Dubuque Drumworks Difference</h3>
+                <p>What sets us apart is our unwavering commitment to excellence. We handpick every item in our inventory, ensuring that it
+                meets the highest standards of quality. We take pride in offering only the best instruments, drum sets, accessories, and
+                equipment, guaranteeing your satisfaction and allowing your passion for percussion to thrive.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Community and Connection</h3>
+                <p>Dubuque Drumworks is more than just a store; it's a hub for like-minded individuals who share a love for music and
+                rhythm. We value the connections we make with our customers, fellow musicians, and the Dubuque community. Through
+                workshops, events, and our collaborative spirit, we aim to foster a vibrant music scene right here in Dubuque.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Join Our Journey</h3>
+                <p>We invite you to be part of our journey, a journey that celebrates the legacy of music and the boundless possibilities
+                it holds. Whether you're a seasoned professional or just beginning to explore the world of percussion, Dubuque Drumworks
+                is your destination.
+                We look forward to serving you and being your trusted partner on your musical path.
+</p>
+            </div>
+            <div class="container mt-3">
+            
+                <button type="button" class="btn btn-danger" data-bs-toggle="popover" title="Dubuque Drumworks"
+                    data-bs-content="Our mission is simple: to inspire, connect, and provide you with the finest percussion instruments and products available. We thank you for your support and can't wait to continue this harmonious journey with you.">
+                    Our Mission
+                </button>
+                <p id="p3">Experience the Dubuque Drumworks difference today – where tradition, excellence, and passion for music converge.</p>
+            </div>
+            <footer>
+                <p>&copy; 2023 Sam Jones</p>
+            </footer>
+            <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+                })
+            </script>
+            </div>
